@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+.gameBox{
+    background-color: #abaafa;
+    border-radius: 10px;
+}
+.main{
+    margin-top: 200px;
+    margin: 0 auto;
+    width:70%;
+    height: 70%;
+}
+.gameContainer{
+    background-color: black;
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    width:320px;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.gameContainer > div{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    width:100px;
+}
+.gameContainer > div:hover{
+    background-color: #abaafa;
+}
+.gameBox{
+    position: relative;
+    width: 340px;
+    margin: 4% ;
+    padding: 50px;
+}
+.box > img{
+    width: 0px;
+    height: 0px;
+    outline: none;
+}
+.TurnSpecifier{
+    padding: 60px;
+    padding-left: 0px;
+}
+.header{
+    background-color: #abaafa;
+    margin: -0.9vh;
+    width: 120%;
+    padding:40px;
+    padding-left: 100px;
+
+}
